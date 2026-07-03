@@ -7,12 +7,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
 
   <!-- NAVIGATION -->
-  <nav class="nav" id="nav">
+  <nav class="navbar" id="nav">
     <div class="nav__logo">CHRISTIN<span class="accent">.</span></div>
     <ul class="nav__links">
       <li><a href="#about">À propos</a></li>
@@ -41,8 +42,8 @@
           Je transforme les données de terrain en décisions concrètes grâce à Python, Power BI, et l'IA.
         </p>
         <div class="hero__cta">
-          <a href="#contact" class="btn btn--primary">Me contacter</a>
-          <a href="#experience" class="btn btn--ghost">Voir mon parcours</a>
+          <a href="#contact" class="btn btn-primary">Me contacter</a>
+          <a href="#experience" class="btn btn-primary">Voir mon parcours</a>
         </div>
       </div>
       <div class="hero__visual">
@@ -53,7 +54,7 @@
               <span class="stat__label">ans d'expérience terrain</span>
             </div>
             <div class="stat">
-              <span class="stat__num">10+</span>
+              <span class="stat__num">15+</span>
               <span class="stat__label">certifications obtenues</span>
             </div>
             <div class="stat">
@@ -77,3 +78,372 @@
       <div class="scroll-line"></div>
     </div>
   </section>
+ <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">À propos</p>
+        <h2 class="section__title">Un profil à l'intersection des mathématiques, des données et de l'IA</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            Analyste de données et consultant IA basé à Antananarivo, je combine une formation solide en
+            <strong>Mathématiques Appliquées</strong> (Master II en cours – Université d'Antananarivo) et
+            une expérience concrète sur le terrain avec l'INSTAT Madagascar et des organisations internationales.
+          </p>
+          <p>
+            Mon domaine de prédilection : automatiser l'analyse de données, construire des tableaux de bord
+            décisionnels et renforcer les capacités des équipes locales sur les outils numériques et l'IA.
+          </p>
+          <p>
+            Volontaire des Nations Unies (VNU) actif, je m'engage aussi sur des missions citoyennes liées à
+            la jeunesse, aux droits humains et à la communication digitale.
+          </p>
+        </div>
+        <div class="about__langs">
+          <h3 class="about__langs-title">Langues</h3>
+          <div class="lang-item">
+            <div class="lang-item__info">
+              <span>Malgache</span><span class="lang-item__level">Natif</span>
+            </div>
+            <div class="lang-bar"><div class="lang-bar__fill" style="--w:100%"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-item__info">
+              <span>Français</span><span class="lang-item__level">Courant</span>
+            </div>
+            <div class="lang-bar"><div class="lang-bar__fill" style="--w:100%"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-item__info">
+              <span>Anglais</span><span class="lang-item__level">Bon niveau (certifié)</span>
+            </div>
+            <div class="lang-bar"><div class="lang-bar__fill" style="--w:70%"></div></div>
+          </div>
+
+          <h3 class="about__langs-title" style="margin-top:2rem">Formation</h3>
+          <div class="edu-list">
+            <div class="edu-item">
+              <span class="edu-item__year">En cours</span>
+              <div>
+                <strong>Master II – Mathématiques Appliquées</strong>
+                <small>Calcul Numérique · Université d'Antananarivo</small>
+              </div>
+            </div>
+            <div class="edu-item">
+              <span class="edu-item__year">2023</span>
+              <div>
+                <strong>Licence Pro – Management</strong>
+                <small>ISERP, Antananarivo</small>
+              </div>
+            </div>
+            <div class="edu-item">
+              <span class="edu-item__year">2022</span>
+              <div>
+                <strong>Master I – Mathématiques Appliquées</strong>
+                <small>Université d'Antananarivo</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Compétences techniques</p>
+        <h2 class="section__title">Ma boîte à outils data &amp; IA</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">📊</div>
+          <h3>Analyse de données</h3>
+          <ul>
+            <li>Python (ML, Deep Learning, Computer Vision)</li>
+            <li>R / RStudio</li>
+            <li>Excel avancé (Power Query, DAX)</li>
+            <li>SPSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">📈</div>
+          <h3>Visualisation &amp; BI</h3>
+          <ul>
+            <li>Power BI (Power Query, DAX)</li>
+            <li>Tableaux de bord interactifs</li>
+            <li>Rapports bailleurs de fonds</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🗺️</div>
+          <h3>Collecte de données terrain</h3>
+          <ul>
+            <li>KoboToolbox</li>
+            <li>ODK Collect</li>
+            <li>QGIS (notions)</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🤖</div>
+          <h3>IA Générative &amp; Automatisation</h3>
+          <ul>
+            <li>ChatGPT, Perplexity, Grok, Gemini</li>
+            <li>Prompt engineering avancé</li>
+            <li>API &amp; agents IA</li>
+            <li>n8n (automatisation workflows)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">🌐</div>
+          <h3>Développement Web</h3>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>WordPress</li>
+            <li>Django (notions)</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">📋</div>
+          <h3>MEAL &amp; Gestion de projet</h3>
+          <ul>
+            <li>Monitoring &amp; Évaluation</li>
+            <li>Redevabilité &amp; Apprentissage</li>
+            <li>Trello, Canva</li>
+            <li>Analyse qualitative &amp; quantitative</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Expérience professionnelle</p>
+        <h2 class="section__title">Parcours sur le terrain et en consulting</h2>
+      </div>
+      <div class="timeline" id="timeline">
+
+        <div class="timeline__item" data-index="0">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__meta">
+              <span class="timeline__period">Fév – Mars 2026</span>
+              <span class="timeline__org">Mobile Hilfe Madagaskar</span>
+            </div>
+            <h3 class="timeline__role">Data &amp; IA Consultant</h3>
+            <ul class="timeline__tasks">
+              <li>Développement d'outils IA pour automatiser l'analyse de données et le reporting</li>
+              <li>Automatisation via n8n : collecte, analyse et rapports d'activité</li>
+              <li>Formation et renforcement des capacités sur les outils IA et gestion des données</li>
+              <li>Élaboration de guides, procédures et modèles de mise en œuvre</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-index="1">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__meta">
+              <span class="timeline__period">Sept – Oct 2025</span>
+              <span class="timeline__org">INSTAT Madagascar – Mahajanga II</span>
+            </div>
+            <h3 class="timeline__role">Chef d'équipe d'enquête</h3>
+            <ul class="timeline__tasks">
+              <li>Coordination avec les autorités locales</li>
+              <li>Sélection, formation et encadrement des agents enquêteurs</li>
+              <li>Suivi et vérification de la qualité des données collectées</li>
+              <li>Transfert des données vers le serveur central</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-index="2">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__meta">
+              <span class="timeline__period">Mai – Juin 2025</span>
+              <span class="timeline__org">INSTAT Madagascar – Arivonimamo</span>
+            </div>
+            <h3 class="timeline__role">Chef d'équipe d'enquête</h3>
+            <ul class="timeline__tasks">
+              <li>Planification et garantie de l'exhaustivité de la collecte</li>
+              <li>Responsable logistique de terrain</li>
+              <li>Transfert et contrôle qualité des données</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-index="3">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__meta">
+              <span class="timeline__period">Fév – Mars 2024</span>
+              <span class="timeline__org">MNDPT / INSTAT – Miarinarivo</span>
+            </div>
+            <h3 class="timeline__role">Contrôleur d'enquête – Projet EFokontany</h3>
+            <ul class="timeline__tasks">
+              <li>Planification et organisation du dénombrement</li>
+              <li>Contrôle, vérification et correction des questionnaires</li>
+              <li>Suivi du transfert des données vers le serveur central</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-index="4">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__meta">
+              <span class="timeline__period">Jan 2022 – Jan 2023</span>
+              <span class="timeline__org">Société Henri Fraise – Tamatave</span>
+            </div>
+            <h3 class="timeline__role">Assistant Administratif IPS</h3>
+            <ul class="timeline__tasks">
+              <li>Gestion des stocks de pièces de rechange et lubrifiants</li>
+              <li>Élaboration du planning de maintenance préventive</li>
+              <li>Utilisation du logiciel IRUIM/IPS pour le suivi des actifs</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- VOLONTARIAT -->
+      <div class="section__header" style="margin-top:4rem">
+        <p class="section__eyebrow">Bénévolat &amp; Volontariat</p>
+        <h2 class="section__title">Engagement citoyen et ONU</h2>
+      </div>
+      <div class="volu-grid">
+        <div class="volu-card">
+          <div class="volu-card__badge">VNU</div>
+          <h3>Concertations Nationales de la Jeunesse</h3>
+          <p class="volu-card__org">Programme VNU · Ministère Jeunesse &amp; Sports · 2026 – En cours</p>
+          <p>Campagnes de sensibilisation sur les réseaux sociaux, mobilisation des influenceurs et engagement civique #ConcertationsJeunesMG.</p>
+        </div>
+        <div class="volu-card">
+          <div class="volu-card__badge">VNU</div>
+          <h3>Droits Humains &amp; Engagement Citoyen (Phase 2)</h3>
+          <p class="volu-card__org">Programme VNU · Ministère Jeunesse &amp; Sports · Fév – Mars 2026</p>
+          <p>Sensibilisation aux droits humains, communication d'urgence post-cyclones (Fytia et Gezani), veille et partage d'opportunités pour la jeunesse malgache.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Formations &amp; Certifications</p>
+        <h2 class="section__title">Un apprentissage continu et structuré</h2>
+      </div>
+      <div class="cert-grid" id="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-card__year">2026</div>
+          <div class="cert-card__body">
+            <p class="cert-card__org">OPEN MOOCs – U.S. Dept of State / FHI 360</p>
+            <h4>English for Business &amp; Entrepreneurship</h4>
+            <h4>English for Career Development</h4>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__year">2025</div>
+          <div class="cert-card__body">
+            <p class="cert-card__org">Orange Digital Center Madagascar</p>
+            <h4>Python · Power BI · SQL · Computer Vision · Django</h4>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__year">2025</div>
+          <div class="cert-card__body">
+            <p class="cert-card__org">Eurêka Services, Nairobi</p>
+            <h4>Masterclass IA · KoboToolbox &amp; SPSS · Excel avancé &amp; Power BI</h4>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__year">2024</div>
+          <div class="cert-card__body">
+            <p class="cert-card__org">INSI Madagascar</p>
+            <h4>Certification en analyse de données</h4>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__year">2024</div>
+          <div class="cert-card__body">
+            <p class="cert-card__org">DisasterReady</p>
+            <h4>MEAL Essentials · Analyse qualitative · Gestion de projet</h4>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__year">2023</div>
+          <div class="cert-card__body">
+            <p class="cert-card__org">AUF-CNF Madagascar</p>
+            <h4>R / RStudio · ODK Collect · PIX (certif. numérique) · SIG de base</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="section__header">
+          <p class="section__eyebrow">Contact</p>
+          <h2 class="section__title">Travaillons ensemble</h2>
+        </div>
+        <p class="contact__desc">
+          Disponible pour des missions de consulting data, des postes MEAL, ou des collaborations en analyse de données et IA à Antananarivo et à distance.
+        </p>
+        <div class="contact__list">
+          <a href="mailto:christinrandrianjafy@gmail.com" class="contact__item">
+            <span class="contact__icon">✉</span>
+            <span>christinrandrianjafy@gmail.com</span>
+          </a>
+          <div class="contact__item">
+            <span class="contact__icon">📞</span>
+            <span>+261 34 336 6157 &nbsp;/&nbsp; +261 33 200 1201</span>
+          </div>
+          <div class="contact__item">
+            <span class="contact__icon">📍</span>
+            <span>Tsiadana Ankastso, Antananarivo, Madagascar</span>
+          </div>
+        </div>
+        <a href="mailto:christinrandrianjafy@gmail.com" class="btn btn--primary" style="margin-top:2rem">
+          Envoyer un message
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">FJC<span class="accent">.</span></span>
+      <span class="footer__copy">© 2026 Randrianjafy Fanomezana Jean Christin</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
